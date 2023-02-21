@@ -1,0 +1,96 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/*navbar*/
+.nav-lalala{
+  
+}
+
+/*card render*/
+.lalala{
+ transition: 
+ .3s transform cubic-bezier(.155,1.105,.295,1.12),
+ .3s box-shadow,
+ .3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+ cursor: pointer;
+}
+
+.lalala:hover{
+  transform: scale(1.05);
+  box-shadow: 
+  0 10px 20px rgba(72, 86, 102, 0.63),  
+  0 4px 8px rgba(36, 123, 222, 0.63);
+
+
+}
+
+.lalala-link{
+  text-decoration:none;
+  color: inherit;
+
+}
+.lalala-link:hover {
+  color: inherit;
+}
+
+
+.aja-lala p{
+  font-weight: bold
+
+}
+.aja-lala p span{
+  font-weight: normal;
+}
+
+.aja p{
+  font-weight: bold;
+
+}
+.aja p span{
+  font-weight: normal;
+}
+
+
+/*light and Dark  mode*/
+.Light {
+background-color: rgb(32 44 55); 
+color: #fff;
+}
+.Dark {
+background-color: #fff;
+color: #333;
+}
+
+/*change color placehlder*/
+ .Light input::placeholder {
+ color: white !important;
+ opacity: 0.8;
+ }
+
+.toggle-lalala:hover{
+  cursor: pointer;
+}
+.input-wrapper{
+  position: relative;
+}
+
+.input-wrapper input{
+  box-sizing: border-box;
+  padding: 10px 10px 10px 35px;
+}
+
+
+.bi-search{
+  position: absolute;
+  top: 50%;
+  margin-left: 10px;
+  transform: translateY(-50%);
+  -webkit-text-stroke: 1px;
+  color:grey;
+}
+
