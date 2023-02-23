@@ -8,7 +8,7 @@ import Search                from '../components/Search'
 export const router = createBrowserRouter([
 
     {
-      path:"/", 
+      path:"/",
       element: <Root/> ,
       errorElement: <ErrorPage/>,
 
